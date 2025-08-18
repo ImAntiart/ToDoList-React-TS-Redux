@@ -2,7 +2,6 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import { fetchTodos as apiFetchTodos } from "../api/todos";
 import { Todo, TodoFilter, FetchTodosResponse } from "../types/todo";
 import { RootState } from "./store";
-
 export interface TodoState {
   todos: Todo[];
   status: "idle" | "loading" | "succeeded" | "failed";

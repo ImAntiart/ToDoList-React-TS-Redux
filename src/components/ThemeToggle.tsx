@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 import { useTheme } from './ThemeContext';
 
-
 const ToggleButton = styled.button`
   position: fixed;
   top: 5px;

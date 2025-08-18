@@ -7,7 +7,6 @@ type TaskControlsProps = {
   onDateFilterChange: (dateFilter: DateFilter) => void;
 };
 
-
 export const TaskControls = ({ 
   onSortChange, 
   onFilterChange,
