@@ -1,11 +1,11 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/ToDoList-React-TS/', 
+  base: '/ToDoList-React-TS-Redux/', // ✅ Исправлено: должно совпадать с названием репозитория
   plugins: [react()],
-   server: {
-    open: true, 
+  server: {
+    open: true,
   },
-})
+});
